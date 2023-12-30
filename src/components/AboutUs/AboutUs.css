@@ -1,0 +1,25 @@
+.link-yellow::before {
+  content: " ";
+  width: 120%;
+  height: 8px;
+  background-color: rgb(250, 212, 0, 0.25);
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  border-radius: 28px;
+}
+
+.link-red::before {
+  content: " ";
+  width: 120%;
+  height: 8px;
+  background-color: rgb(254, 119, 102, 0.25);
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  border-radius: 28px;
+}
