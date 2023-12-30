@@ -1,6 +1,6 @@
 # Sunnyside agency landing page
 
-![Design preview for the Sunnyside agency landing page coding challenge](screenshot.jpe)
+![Design preview for the Sunnyside agency landing page coding challenge](screenshot.jpeg)
 
 ## Screenshot
 

@@ -16,7 +16,7 @@ const NavBar = () => {
           <img
             src={HamburgorIcon}
             alt="Sunny Logo"
-            className="  p-4 block lg:hidden cursor-pointer"
+            className="  py-4 block lg:hidden cursor-pointer"
             onClick={() => setNavOpen(!navOpen)}
           />
           <ul className="hidden lg:flex  lg:flex-row  gap-12 bg-white sm:bg-transparent">
@@ -38,12 +38,12 @@ const NavBar = () => {
         </div>
       </div>
       <div className={`relative ${navOpen ? "block" : "hidden"} lg:hidden`}>
-        <div className="absolute top-[2.6rem] sm:top-[3.7rem] right-4 md:right-10 h-10 w-10  ">
+        <div className="absolute top-[3.6rem] sm:top-[4.7rem] right-4 md:right-10 h-10 w-10  ">
           <div class="w-10  overflow-hidden inline-block">
             <div class=" h-14 bg-white rotate-45 transform origin-bottom-left"></div>
           </div>
         </div>
-        <div className=" absolute z-50 lg:relative  top-24 sm:top-28 left-1/2  -translate-x-1/2 px-4 md:px-10 w-full">
+        <div className=" absolute z-50 lg:relative  top-28 sm:top-32 left-1/2  -translate-x-1/2 px-4 md:px-10 w-full">
           <ul className="flex flex-col bg-white gap-2  pt-8 pb-10">
             <li className="text-black text-center  px-4 cursor-pointer py-4 -tracking-[0.129px]">
               About
